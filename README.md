@@ -65,13 +65,12 @@ Reproduction of Figure 1 of Sodha et al. (1971):
 | 4     | Nonlinear | +0.5  | 2.0 | Strong nonlinear case (beam collapse) |
 
 **Note:** Sodha's Figure 1 caption specifies that Curve 3's abscissa is to be 
-multiplied by 4. This scaling convention is to be added in a subsequent 
-revision of this code.
+multiplied by 4.
 
 ## Usage
 
 ```python
-python sodha_figure1.py
+python Sodha_1971_figure1.py
 ```
 
 The script integrates all four curves and displays the reproduced Figure 1.
@@ -89,3 +88,29 @@ pip install numpy scipy matplotlib
 ```
 
 ## Repository Structure
+```
+self-focusing-sodha-1971/
+├── Sodha_1971_figure1.py              # Main integration and plotting script
+├── plots/
+│   └── figure1_reproduction.png
+└── README.md
+```
+
+## References
+
+1. Sodha, M.S., Tewari, D.P., Ghatak, A.K., Kamal, J., Tripathi, V.K. (1971). 
+   "Self-focusing of Laser Beams in Inhomogeneous Dielectrics." 
+   *Opto-Electronics* **3**, 157–161.
+
+
+## Author
+
+**Anuj Dwivedi**  
+B.Sc. (Hons.) Physics, Rajdhani College, University of Delhi  
+Supervisor: Prof. Krishna Gopal  
+Email: anuj.dwivedi.phys@gmail.com
+
+---
+
+*This work is part of an undergraduate research project on laser-plasma 
+interaction and self-focusing phenomena.*
