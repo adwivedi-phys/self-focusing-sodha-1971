@@ -25,7 +25,7 @@ def rhs(xi, y, alpha1, alpha2, alpha3, gamma, mode):
     if mode == "linear":
         focusing = gamma * f * np.exp((alpha1 - alpha3) * xi)
     else:
-        focusing = (gamma / f**3) * np.exp((2 * alpha1 - alpha2) * xi)
+        focusing = (gamma / f**3) * np.exp((alpha1 - alpha2) * xi)
     fpp = 0.5 * alpha1 * fp + diffraction - focusing
     return [fp, fpp]
 
